@@ -8,9 +8,9 @@
 
 https://airflow.apache.org/
 
-🔧 實作範例：建立一個 Airflow 專案
+實作範例：建立一個 Airflow 專案
 
-1. 下載官方 Docker Compose 範例
+1. Apache Airflow 官方提供的 Docker Compose 腳本
 
 curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.9.1/docker-compose.yaml'
 
