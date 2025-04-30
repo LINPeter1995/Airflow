@@ -10,11 +10,11 @@ https://airflow.apache.org/
 
 實作範例：建立一個 Airflow 專案
 
-1. Apache Airflow 官方提供的 Docker Compose 腳本
+Apache Airflow 官方提供的 Docker Compose 腳本
 
 curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.9.1/docker-compose.yaml'
 
-2. 建立資料夾結構
+建立資料夾結構
 
 mkdir airflow-docker
 
@@ -24,11 +24,11 @@ cd airflow-docker
 
 mkdir -p ./dags ./logs ./plugins ./config
 
-3. 建立 .env 檔案
+建立 .env 檔案
    
 AIRFLOW_UID=50000 (用來指定容器中的 user id，避免權限問題）
 
-5. 啟動 Airflow
+啟動 Airflow
 
 docker compose up airflow-init
 
